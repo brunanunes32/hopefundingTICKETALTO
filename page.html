@@ -12,9 +12,16 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
   ttq.load('CT9M7CBC77U3MQBERE90');
   ttq.page();
+
+  // Adicionando evento de Purchase
+  ttq.track('Purchase', {
+    value: 100.00,         // Substitua pelo valor real da transação
+    currency: 'USD'        // Substitua pela moeda usada, por exemplo, BRL para reais
+  });
 }(window, document, 'ttq');
 </script>
 <!-- TikTok Pixel Code End -->
+
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0W0DWXBP4"></script>
